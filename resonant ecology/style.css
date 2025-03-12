@@ -1,0 +1,128 @@
+body{
+    background-color: #2C514C;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-10px);
+    scale: 2;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #122932;
+    position:sticky; 
+    left:0; 
+    width:100%;
+   
+}
+
+.header a{
+    float: left;
+    color: #E3C0D3;
+    text-align: center;
+    padding: 14px 70px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.header a:hover{
+    background-color: #E3C0D3;
+    color: #122932;
+}
+
+.home{ 
+    margin: 10px;
+}
+
+.headerright{
+    float: right;
+    margin: 10px;
+}
+
+#side-menu{
+    display: grid;
+    grid-template-rows: repeat(12,50px);
+    float: right;
+    padding-right: 5%;
+    text-align: right;
+    background-color: aliceblue;
+    width: 150px;
+}
+
+#side-menu a{
+    text-decoration: none;
+}
+
+
+
+#entry1{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 1/2;
+}
+
+#entry2{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 2/3;
+}
+#entry3{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 3/4;
+}
+#entry4{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 4/5;
+}
+#entry5{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 5/6;
+}
+#entry6{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 6/7;
+}
+#entry7{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 7/8;
+}
+#entry8{
+    color: #E3C0D3;
+    background-color: #122932;
+    grid-row: 8/9;
+}
